@@ -24,10 +24,7 @@ p, h2, h3 {
     background-size: cover;
     position: relative;
 }
-.hero-back img {
-    object-fit: cover;
-    height: calc(100vh);
-}
+
 .hero-front {
     width: 100%;
     position: absolute;
@@ -79,9 +76,7 @@ p, h2, h3 {
         margin-top: calc(30%);
         top: -10%;
         
-        
         overflow: hidden;
-        object-fit: cover;
         height: calc(50vh);
         width: 100%;
         padding-left: -30%;
