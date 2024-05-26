@@ -13,7 +13,8 @@ h1 {
 
 p, h2, h3 {
     font-family: Helvetica, sans-serif;
-    font-weight: lighter;
+    font-weight: 300;
+    font-size: 18px;
     color: #fff;
 }
 
@@ -45,12 +46,24 @@ p, h2, h3 {
     padding: 40px 0 40px 0;
     animation: fadeIn 4s ease-in-out;
 }
+.info {
+    height: 20px;
+    width: 100px;
+    padding: 20px 0;
+    margin-bottom: 15px;
+    background: transparent;
+}
+.left {
+    display: flex;
+    gap: 15px;
+}
 
-/* .info {
-    height: 50px;
-    width: 200px;
-    background-color: rgb(240, 234, 223);
-} */
+.icon {
+    color: #fff;
+    font-size: 20px;
+}
+
+
 
 @keyframes fadeIn {
     from {
@@ -88,7 +101,7 @@ p, h2, h3 {
     .content{
         margin-top: 30%;
         width: 82vw;
-        padding: 0 25px;
+        padding: 0 15px;
     }
 }
 
@@ -124,11 +137,26 @@ p, h2, h3 {
         
     }
     .hero-front {
-        margin-top: calc(45%);
+        margin-top: calc(50%);
         height: calc(45vh);
         padding-left: -30%;
     }
     .content {
         margin-top: 40%;
+    }
+}
+
+@media screen and (min-width: 520px) and (max-width: 1025px) {
+    .hero-back {
+        height: calc(80vh);
+        
+    }
+    .hero-front {
+        margin-top: calc(50%);
+        height: calc(50vh);
+        padding-left: -30%;
+    }
+    .content {
+        width: 80vw;
     }
 }
