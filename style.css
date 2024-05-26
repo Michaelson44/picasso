@@ -115,7 +115,22 @@ p, h2, h3 {
     }
     .hero-front {
         margin-top: calc(50%);
-        height: calc(50vh);
+        height: calc(45vh);
+        padding-left: -30%;
+    }
+    .content {
+        margin-top: 40%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .hero-back {
+        height: calc(58vh);
+        
+    }
+    .hero-front {
+        margin-top: calc(45%);
+        height: calc(45vh);
         padding-left: -30%;
     }
     .content {
