@@ -48,6 +48,13 @@ p, h2, h3 {
     padding: 40px 0 40px 0;
     animation: fadeIn 4s ease-in-out;
 }
+
+/* .info {
+    height: 50px;
+    width: 200px;
+    background-color: rgb(240, 234, 223);
+} */
+
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -64,7 +71,7 @@ p, h2, h3 {
     .hero-back {
         height: calc(100vh);
         /* padding-left: -30%; */
-        background-position: center;
+        
         
     }
     .hero-front {
@@ -101,14 +108,17 @@ p, h2, h3 {
     }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 375px) {
     .hero-back {
         height: calc(58vh);
         
     }
     .hero-front {
-        margin-top: calc(30%);
+        margin-top: calc(50%);
         height: calc(50vh);
-        padding-right: -50%;
+        padding-left: -30%;
+    }
+    .content {
+        margin-top: 40%;
     }
 }
