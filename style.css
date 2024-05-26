@@ -60,15 +60,17 @@ p, h2, h3 {
     .hero-back {
         height: calc(68vh);
         
+        
     }
     .hero-front {
         position: absolute;
-        margin-top: calc(10%);
+        margin-top: calc(40%);
         overflow: hidden;
-        height: calc(90vh);
+        height: calc(50vh);
         width: 100%;
-        padding-right: -30%;
+        padding-right: -40%;
         background-position: center;
+        z-index: 999;
 
     }
 
