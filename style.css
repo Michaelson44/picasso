@@ -114,7 +114,7 @@ p, h2, h3 {
         
     }
     .hero-front {
-        margin-top: calc(50%);
+        margin-top: calc(35%);
         height: calc(45vh);
         padding-left: -30%;
     }
